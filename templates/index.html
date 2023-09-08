@@ -1,0 +1,24 @@
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FWI Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to FWI Prediction</h1>
+    </header>
+    
+    <main>
+        <div class="notification">
+            <p>Welcome to our FWI prediction service. Stay informed about fire weather conditions.</p>
+        </div>
+
+        <div class="button-container">
+            <a href="{{ url_for('prediction') }}" class="btn">Predict FWI</a>
+        </div>
+    </main>
+</body>
+</html> {% endcomment %}
